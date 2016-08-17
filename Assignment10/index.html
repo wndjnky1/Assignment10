@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+    <head>
+        <title>VectaCorp Home</title>
+        <!-- 3 things you need: link to jqm css, link to jQuery and link to jqm core files -->
+       
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="scripts/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="themes/Sea.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+         
+<!--        <script type="text/javascript" src="scripts/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+        
+        <!-- shortcut for meta tag is (with emmet) "meta:vp{press ctrl+alt+enter or possibly tab} -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--        <link rel="stylesheet" href="css/base.css">-->
+<!--	   <link rel="stylesheet" href="css/skeleton.css">-->
+<!--	   <link rel="stylesheet" href="css/layout.css">-->
+        <link rel="stylesheet" href="css/main.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+   <!-- <script>
+            $(document).ready(function(){
+
+                $('#subMessage').dialog({
+                    autoOpen:false,
+                    position:{
+                        my:'right bottom',
+                        at:'bottom middle'
+                    }
+                });
+                 $('#submit input').button();
+                $('#submit').click(function(evt) {
+                    $('#subMessage').dialog('open');
+                    evt.preventDefault();
+                });
+            });
+        </script>-->
+        <script type="text/javascript">
+        $(function(){
+            $("[data-role='footer']").toolbar();
+        })
+      </script>
+    </head>
+    <style>
+    .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #3388cc;
+    border-color: #254087;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #444444;
+    font-weight: bold;
+}
+       /* .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited {
+    background-color: #33ccff;
+    border-color: #1c7070;
+    color: #000000;
+    text-shadow: 0 1px 0 #eeeeee;
+}*/
+    </style>
+    
+    <body>
+<!-- 1st page -->
+          <section id="firstPage" data-role="page">
+             <header data-role="header" data-position="fixed" data-fullscreen="true" >
+            
+               <nav data-role="navbar">
+                   <ul>
+                       <li><a href="#firstPage" class="ui-btn ui-icon-plus ui-btn-icon-top ui-btn-active ui-state-persist">Home</a></li>
+                       <li><a href="#secondPage" class="ui-btn ui-icon-minus ui-btn-icon-top">Solutions</a></li>
+                       <li><a href="#thirdPage" class="ui-btn ui-icon-check ui-btn-icon-top">Contact Us</a></li>
+                   </ul>
+               </nav>
+                 
+           </header>
+           
+           <article class="ui-content" >
+           <section>
+               <div data-role="header"> 
+               <header class="sixteen columns">
+			<img src="images/header1.gif" class="scale-with-grid" alt="">
+		</header>
+             <h1>Vecta Corporation</h1>
+                 
+                </div>
+                   
+			<h2>Welcome</h2>
+
+			<p>With innovative approaches and advanced methodologies, <b>Vecta Corporation</b> provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. Our approach stems from the three most important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable and positive user experience.</p>
+			
+			<h2>Our Solutions</h2> 
+			
+			<p class='vprospect'>vProspect 2.0<br>
+			Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience.</p>
+			
+			<p class='vconvert'>vConvert 2.0<br>
+			Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level.</p>
+			
+			<p class='vretain'>vRetain 1.0<br>
+			Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues.</p>
+		</section>
+   
+		
+          <!--  <button type="button" data-icon="gear"</button>-->
+        <div data-role="collapsibleset" data-content-theme="a" data-iconpos="right" id="set">
+                <h2>Client Testimonials</h2>
+            <div data-role="collapsible" data-collapsed="true">
+               
+	<h3>See what the CDA had to say...</h3>
+                <p>Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and exposure exponentially.</p>
+
+Iona Ford<br />
+President<br />
+Chevy Dealers Association<br />
+                </div>
+            <div data-role="collapsible" data-collapsed="true">
+               <h3>It's all positive...Profits Financial, Inc.</h3>
+                <p>Incredible results from an incredible effort by the Vecta Corporation team! We are very pleased with the business benefits we have rceived by working with them.</p>
+
+        Robin Banks<br />
+        CEO<br />
+        Profits Financial, Inc.<br />
+            </div>
+        </div>
+     
+        </article>
+         <footer data-role="footer" data-position="fixed" >
+               <h2>Vecta Corporation &copy; 2016</h2>
+           </footer>   
+        </section>
+       
+       <section id="secondPage" data-role="page">
+            
+           <header data-role="header">
+               
+              
+               <nav data-role="navbar">
+                   <ul>
+                       <li><a href="#firstPage" class="ui-btn ui-icon-plus ui-btn-icon-top">Home</a></li>
+                       <li><a href="#secondPage" class="ui-btn ui-icon-minus ui-btn-icon-top ui-btn-active ui-state-persist">Solutions</a></li>
+                       <li><a href="#thirdPage" class="ui-btn ui-icon-check ui-btn-icon-top">Contact Us</a></li>
+<!--                       <li><a href="#" class="ui-btn ui-icon-grid ui-btn-icon-top">Four</a></li>-->
+                   </ul>
+               </nav>
+               <header class="sixteen columns">
+			<img src="images/header1.gif" class="scale-with-grid" alt="">
+		</header>
+                <h1>Vecta Corp</h1>
+           </header>
+<!--           <div data-role="page" id="pageone">-->
+           <div data-role="panel" id="vprospect">
+                <h2>vProspect 2.0</h2>        
+                <p><img src="images/logo_vprospect.gif" style="float:left" alt="vprospect" />
+    Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience. vProspect can help your business:<br /></p>
+                 <ul>
+                    <li>Define your target audience and competition.</li>
+
+                    <li>Research your competition and your target audience's behavior, needs, technical know-how level, etc.</li>
+
+                    <li>Establish a conceptual and visual identity that corresponds to the defined direction of the company.</li>
+
+                    <li>Ensure consistency across all media.</li>
+
+                    <li>Establish corporate guidelines for cohesiveness of any future developments.</li>
+
+                    <li>Define and/or re-defining your service and/or product offerings.</li>
+
+                    <li>Define expansion plans and strategies.</li>
+
+                    <li>Implement Search Engine Optimization of all Online materials.</li> 
+               </ul>
+    </div>  
+            <div data-role="panel" id="vconvert">
+                <h2>vConvert 2.0</h2>        
+                 <p><img src="images/logo_vconvert.gif" style="float:left" alt="vconvert" />
+               Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level. vConvert can help your business:<br /></p>
+                    <ul>
+                        <li>Build a visual and functional user front end that focuses exclusively on providing an exceptional user experience while conveying company, service and product information.</li>
+
+                        <li>Cause the desired emotional response in a user to facilitate conversion to a client.</li>
+
+                        <li>Build sites that move beyond merely conveying information. They advertise, motivate, excite and inspire. Users are more likely to remember and recommend your site.</li>
+
+                        <li>Research your target audience's behavior, needs, technical know-how and level, etc.</li>
+
+                        <li>Develop any applicable back-end programs to facilitate user interaction with the company and offerings on a highly functional level to allow any kind of online transactions and a completely centralized information collection and access point, accessible from any location.</li>
+
+                        <li>Create an architecture to display the site content and information in a logical and easy to access manner. Facilitating thereby the desired ease, for the user to find what they are looking for quickly and easily. Allowing the user to focus on the subject at hand rather than searching for information on the site.</li>
+                    </ul>
+
+            </div>
+                 <div data-role="panel" id="vretain">
+                    <h2>vRetain 1.0</h2>        
+                     <p><img src="images/logo_vretain.gif" style="float:left" alt="vretain" />
+                   Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues. vRetain can help your business:<br /></p>
+                        <ul>
+                            <li>Streamline existing business infrastructures by utilizing technology for automation, information centralization, and information sharing among all business units and departments, as well as efficient prospect &amp; customer tracking and interaction within the company.</li>
+
+                            <li>Collect crucial information, data and statistics that allow a company to keep in touch with users in a very customized, highly targeted way.</li>
+
+                            <li>Analyze site visitor behavior through traffic analysis, usability studies and interactive polling. Recommending and making site and application adjustments to improve usability and user experience.</li>
+                </ul>
+                </div>          
+                  <div data-role="main" class="ui-content">
+                    <h2>Our Solutions:</h2>
+                    <ul data-role="listview">
+                      <li><a href="#vprospect">vProspect 2.0</a><br /><p class='vprospect'>
+                            Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience.</p></li>
+                      <li><a href="#vconvert">vConvert 2.0</a><br /><p class='vconvert'>
+                    Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level.</p>           </li>
+                      <li><a href="#vretain">vRetain 1.0</a><p class='vretain'>
+                    Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues.</p></li>
+                    </ul>
+                  </div>
+ <!--<div data-role="footer" data-position="fixed">
+	<h1>Fixed Footer!</h1>
+</div>-->
+          <!-- <footer data-role="footer" data-position="fixed" >
+               <h2>Vecta Corporation &copy; 2016</h2>
+           </footer>-->
+           <footer data-role="footer" data-position="fixed" data-tap-toggle="false">
+               <h2>Vecta Corporation &copy; 2016</h2>
+           </footer>
+       </section>
+ 	
+        <section id="thirdPage" data-role="page">
+           
+           <header data-role="header">
+<!--               <h1>Vecta Corp</h1>-->
+               <nav data-role="navbar">
+                   <ul>
+                       <li><a href="#firstPage" class="ui-btn ui-icon-plus ui-btn-icon-top">Home</a></li>
+                       <li><a href="#secondPage" class="ui-btn ui-icon-minus ui-btn-icon-top">Solutions</a></li>
+                       <li><a href="#thirdPage" class="ui-btn ui-icon-check ui-btn-icon-top ui-btn-active ui-state-persist">Contact Us</a></li>
+<!--                       <li><a href="#" class="ui-btn ui-icon-grid ui-btn-icon-top">Four</a></li>-->
+                   </ul>
+               </nav>
+                <header class="sixteen columns">
+			<img src="images/header1.gif" class="scale-with-grid" alt="">
+		</header>
+			<h4>Contact Us</h4>
+			<form id="frmContact" name="contactform"  action="form-parser2.php" method='post'>
+				<fieldset>
+			    <legend>Contact a Sales Representative</legend>
+			    Name:
+			    <input type="text" name="name" maxlength="30" required="">
+			    Company Name:
+			    <input type="text" name="companyname" maxlength="30" required="">
+			    Phone:
+			    <input type="tel" name="phonenumber" maxlength="25" required="" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Format: 555-555-5555">
+			    
+			    Email:
+				<input type="email" name="email" maxlength="30" required="">
+                
+			    What VectaCorp products are you interested in?
+                <br>
+                <select name="companysize" id='compSize'>
+                    <option value="vProspect">vProspect 2.0</option>
+                    <option value="vConvert">vConvert 2.0</option>
+                    <option value="vRetain">vRetain 1.0</option>
+                </select>
+               <p>&nbsp;</p>
+ 
+                
+			    Questions or comments for our sales representatives?
+			    <textarea name="questions" size="30" rows="5"></textarea>
+                    
+			    <input id="submit" type="submit" name="submit" value="Submit Now">
+                <div id="subMessage">
+                    <p> Thank you for your inquiry. One of our representatives will respond back to you within 24 hours.</p>
+                    </div>
+		    	</fieldset>
+			</form>
+               <p></p>
+               <p></p>
+           <footer data-role="footer" data-position="fixed" >
+               <h2>Vecta Corporation &copy; 2016</h2>
+           </footer>     
+	    </section>       
+       
+    </body>
+</html>
+
+
+
+
+
+
